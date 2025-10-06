@@ -51,7 +51,7 @@ CREATE TABLE actors(
 CREATE TABLE box_office(
     movie_id INT PRIMARY KEY,
     domestic_gross NUMERIC,
-    international_gross NUMERIC
+    worldwide_gross NUMERIC
 );
 
 --# Adding Foreign Key Constraints
